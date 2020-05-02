@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "8"
+
+cache: yarn
+
+script:
+  - yarn lint
+  - yarn build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  fqdn: isaaccastro.eu
+  email: isaac@isaaccastro.eu
+  keep_history: true
+  on:
+    branch: master
