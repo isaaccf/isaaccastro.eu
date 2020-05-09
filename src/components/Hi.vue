@@ -21,7 +21,7 @@ export default {
   justify-content: center;
   flex-direction: column;
   flex: 1;
-  min-height: 90vh;
+  min-height: 88vh;
 }
 
 h1 {
