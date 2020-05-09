@@ -29,23 +29,26 @@ export default {
 }
 </script>
 
-<style>
-body {
-  background: repeating-linear-gradient(
-  45deg,
-  #fefefeb2,
-  #fefefeb2 5px,
-  #efefefb2 5px,
-  #efefefb2 10px
-);
-  margin: 0;
-}
-
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.Cookie--base {
+padding: 0 1em;
+}
+.Cookie--base >>> .Cookie__button {
+background: #bbbbbb;
+padding: 0.5em 1em;
+}
+.Cookie--base >>> .Cookie__button:hover {
+background: #bbbbbb;
+}
+.Cookie__content {
+color:#7f7f7f;
 }
 </style>

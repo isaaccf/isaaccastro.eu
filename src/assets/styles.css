@@ -1,13 +1,10 @@
-.Cookie--base {
-padding: 0 1em !important;
-}
-.Cookie--base .Cookie__button {
-background: #bbbbbb !important;
-padding: 0.5em 1em !important;
-}
-.Cookie--base .Cookie__button:hover {
-background: #bbbbbb !important;
-}
-.Cookie__content {
-color:#7f7f7f !important;
-}
+body {
+    background: repeating-linear-gradient(
+    45deg,
+    #fefefeb2,
+    #fefefeb2 5px,
+    #efefefb2 5px,
+    #efefefb2 10px
+  );
+    margin: 0;
+  }
